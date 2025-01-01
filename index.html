@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELLIE | The Last of Us Part II</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Modern font için Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Animasyonlar için AOS kütüphanesi -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loading-content">
+            <div class="firefly"></div>
+            <div data-translate="loadingText" class="loading-text">LOADING</div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <nav class="navbar">
+            <div class="logo">ELLIE</div>
+            <div class="nav-links">
+                <a href="#story" data-translate="story">Story</a>
+                <a href="#journey" data-translate="journey">Journey</a>
+                <a href="#gallery" data-translate="gallery">Gallery</a>
+                <a href="#music" data-translate="music">Music</a>
+                <div class="language-selector">
+                    <button class="lang-btn" data-lang="en">
+                        <span>🇬🇧</span>
+                        <span>EN</span>
+                    </button>
+                    <button class="lang-btn" data-lang="tr">
+                        <span>🇹🇷</span>
+                        <span>TR</span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <div class="hero-content">
+            <h1>ELLIE</h1>
+            <p class="tagline" data-translate="tagline">When you're lost in the darkness, look for the light</p>
+        </div>
+    </div>
+
+    <!-- Hero section'dan sonra -->
+    <section id="story" class="story-section">
+        <div class="story-content">
+            <h2 data-translate="storyTitle">THE STORY</h2>
+            <div class="story-grid">
+                <div class="story-text" data-aos="fade-right">
+                    <h3 data-translate="storyTitle2">A TALE OF VENGEANCE</h3>
+                    <p data-translate="storyText">Five years after their dangerous journey across the post-pandemic United States, Ellie and Joel have settled down in Jackson, Wyoming. Living amongst a thriving community of survivors has allowed them peace and stability, despite the constant threat of the infected and other, more desperate survivors.</p>
+                </div>
+                <div class="story-image" data-aos="fade-left">
+                    <img src="images/ellie-story.jpg" alt="Ellie's Journey">
+                </div>
+            </div>
+            <div class="quote" data-aos="fade-up">
+                <p data-translate="storyQuote">"I'm gonna find... and I'm gonna kill... every last one of them."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story section'dan sonra -->
+
+    <!-- Journey Section -->
+    <section id="journey" class="journey-section">
+        <div class="journey-content">
+            <h2 data-translate="journeyTitle">THE JOURNEY</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-content">
+                        <h3>JACKSON</h3>
+                        <p>Ellie ve Joel, Wyoming'deki Jackson kasabasında huzurlu bir yaşam sürmektedir. Topluluk içinde güvenli bir yaşam, enfekte olmuşların ve diğer hayatta kalanların tehdidine rağmen mümkün olmuştur. Ellie burada müzik yeteneğini geliştirmiş, Joel ile baba-kız ilişkisini güçlendirmiş ve Dina ile yakınlaşmıştır.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-content">
+                        <h3>SEATTLE</h3>
+                        <p>Trajik bir olay sonrası intikam yolculuğuna çıkan Ellie, Seattle'ın tehlikeli sokaklarında amansız bir takibe başlar. Washington Liberation Front (WLF) ve Seraphites gibi acımasız gruplarla karşı karşıya gelir. Bu yolculukta Dina'nın desteğiyle, enfekte olmuşlar ve düşmanlarla mücadele ederken, insanlığını korumaya çalışır.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-content">
+                        <h3>SANTA BARBARA</h3>
+                        <p>Ellie'nin intikam yolculuğunun son durağı, Kaliforniya'nın güneşli sahillerindeki Santa Barbara'dır. Burada, Rattlers adlı acımasız bir grupla karşılaşır. Tüm yeteneklerini ve hayatta kalma içgüdülerini kullanarak, hem fiziksel hem de psikolojik bir savaş verir. Ellie'nin üstün dövüş yetenekleri, zekası ve kararlılığı, onu gerçek bir hayatta kalma ustası yapar. Ancak intikamın bedeli, onun ruhunda derin izler bırakacaktır.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <h2 data-translate="galleryTitle">GALERİ</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item" data-aos="zoom-in">
+                <img src="images/gallery1.jpg" alt="Ellie">
+            </div>
+            <div class="gallery-item" data-aos="zoom-in">
+                <img src="images/gallery2.jpg" alt="Ellie">
+            </div>
+            <div class="gallery-item" data-aos="zoom-in">
+                <img src="images/gallery3.jpg" alt="Ellie">
+            </div>
+        </div>
+    </section>
+
+    <!-- Music Section -->
+    <section id="music" class="music-section">
+        <div class="music-content">
+            <h2 data-translate="musicTitle" data-aos="fade-up">MÜZİKLER</h2>
+            <div class="music-container" data-aos="fade-up">
+                <!-- Sol Taraf: Müzik Çalar ve Playlist -->
+                <div class="music-left">
+                    <div class="music-player">
+                        <div class="player-grid">
+                            <div class="album-art">
+                                <img src="images/guitar.jpg" alt="Through The Valley">
+                                <div data-translate="nowPlaying" class="now-playing-badge">Oynatılıyor</div>
+                            </div>
+                            <div class="player-controls">
+                                <div class="song-info">
+                                    <h3>Through The Valley</h3>
+                                    <p>Ellie - The Last of Us Part II</p>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress"></div>
+                                    <div class="time-stamps">
+                                        <span class="current-time">0:00</span>
+                                        <span class="total-time">3:25</span>
+                                    </div>
+                                </div>
+                                <div class="controls">
+                                    <button class="control-btn shuffle">
+                                        <i class="fas fa-random"></i>
+                                    </button>
+                                    <button class="control-btn prev">
+                                        <i class="fas fa-step-backward"></i>
+                                    </button>
+                                    <button class="control-btn play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </button>
+                                    <button class="control-btn next">
+                                        <i class="fas fa-step-forward"></i>
+                                    </button>
+                                    <button class="control-btn repeat">
+                                        <i class="fas fa-redo"></i>
+                                    </button>
+                                </div>
+                                <div class="volume-control">
+                                    <i class="fas fa-volume-up"></i>
+                                    <div class="volume-slider">
+                                        <div class="volume-progress"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <audio id="song" src="audios/ttv.mp3"></audio>
+                    </div>
+                    <div class="spotify-playlist">
+                        <iframe 
+                            style="border-radius:12px" 
+                            src="https://open.spotify.com/embed/album/2SOJkkY1edgKG56QAGXerh" 
+                            width="100%" 
+                            height="400" 
+                            frameBorder="0" 
+                            allowfullscreen="" 
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- Sağ Taraf: Bilgi Kartları -->
+                <div class="music-right">
+                    <div class="info-card composer">
+                        <div class="card-content">
+                            <h3>Gustavo Santaolalla</h3>
+                            <span data-translate="composer" class="title">Besteci</span>
+                            <p data-translate="composerText">İki Oscar ödüllü besteci, The Last of Us'un ruhunu benzersiz müziğiyle yakalıyor. Minimal ve duygusal kompozisyonlarıyla oyunun atmosferini mükemmel şekilde yansıtıyor.</p>
+                            <div class="awards">
+                                <i class="fas fa-award"></i>
+                                <span data-translate="awards" class="awards">Academy Award Winner</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-card performer">
+                        <div class="card-content">
+                            <h3>Ashley Johnson</h3>
+                            <span data-translate="performer" class="title">Ses & Performans</span>
+                            <p data-translate="performerText">Ellie'yi canlandıran Ashley Johnson, karakterin müzikal yönünü de ustaca sergiliyor. "Through the Valley" ve "Take On Me" cover'larıyla oyunun duygusal derinliğini artırıyor.</p>
+                            <div class="awards">
+                                <i class="fas fa-star"></i>
+                                <span data-translate="awards2" class="awards">BAFTA Award Winner</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-card soundtrack">
+                        <div class="card-content">
+                            <h3 data-translate="soundtrackTitle">Müzik</h3>
+                            <p data-translate="soundtrackText">Post-apokaliptik dünyada müzik, umut ve insanlığın sembolü haline geliyor. Akustik gitardan minimal melodilere, her nota hikayeyi derinleştiriyor.</p>
+                            <div class="highlights">
+                                <span data-translate="soundtrackTag" class="tag">Minimal</span>
+                                <span data-translate="soundtrackTag2" class="tag">Duygusal</span>
+                                <span data-translate="soundtrackTag3" class="tag">Atmosferik</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JS dosyasını ekleyelim -->
+    <script src="script.js"></script>
+
+    <!-- AOS kütüphanesini initialize et -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>
